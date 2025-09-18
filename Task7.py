@@ -6,15 +6,11 @@
 # write a program that can read in the number to count down from!
 
 def main():
+    #Write your code here
     time = int(input("Time to launch: "))
     for i in range(time, 0, -1):
       print(f"{i}...")
     print("Blast off!")
-
-    #Write your code here
-    
-
-    
     # End of your code here
 
 

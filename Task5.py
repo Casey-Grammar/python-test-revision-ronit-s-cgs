@@ -7,6 +7,7 @@
 itascore = int(input("Italy: "))
 brascore = int(input("Brazil: "))
 def main():
+    # Write your code for input here
     if itascore > brascore:
         print("Italy won the match")
     elif brascore > itascore:
