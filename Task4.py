@@ -5,9 +5,9 @@
 
 def main():
     #Write your code here
-    
-
-
+    attpassword = input("What is the password Ali? ")
+    if attpassword == "Open sesame!":
+        print("The cave door opens!")
     # End of your code here
 
 
