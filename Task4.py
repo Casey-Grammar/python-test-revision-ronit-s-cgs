@@ -3,12 +3,14 @@
 # If the password is correct, the cave door will be opened. 
 # Otherwise nothing will
 
+attpassword = input("What is the password, Ali?:")
+
 def main():
-    #Write your code here
-    
+    if attpassword == "Open Sesame!":
+      print("Correct, the door has opened")
+    else: 
+      print("Wrong, try again.")
 
-
-    # End of your code here
 
 
 

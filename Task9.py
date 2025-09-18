@@ -5,7 +5,10 @@
 
 def main():
     #Write your code here
-    
+    catlist = input("Cats: ")
+    catnames = catlist.split()
+    print(f"You have " + str(len(catnames)) + ' cats')
+
 
 
 

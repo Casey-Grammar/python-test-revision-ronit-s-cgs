@@ -11,7 +11,18 @@
 
 def main():
     #Write your code here
+    roll = input("Students: ")
+    print("Roll call:")
+    nameslist = roll.split()
+    cnameslist = [name.title() for name in nameslist]
+    cnameslist.sort()
+    for name in cnameslist:
+        print(name)
+
+
+
     
+
 
 
     # End of your code here

@@ -4,8 +4,15 @@
 # that works out who won their latest soccer match, given the scores
 # of both teams.
 
+itascore = int(input("Italy: "))
+brascore = int(input("Brazil: "))
 def main():
-    #Write your code here
+    if itascore > brascore:
+        print("Italy won the match")
+    elif brascore > itascore:
+        print("Brazil won the match")
+    elif brascore == itascore:
+        print("The match was drawn")
    
 
 

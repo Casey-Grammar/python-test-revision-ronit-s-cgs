@@ -15,7 +15,12 @@
 
 def main():
     #Write your code here
-    
+    fullname = input("First and Last Name? ")
+    firstname = fullname.split()[0]
+    lastname = fullname.split()[1]
+    callsign = firstname[:2] + lastname[:-4]
+    print("f")
+
 
 
     # End of your code here

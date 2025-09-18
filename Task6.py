@@ -4,7 +4,11 @@
 # appears in full, with no breaks.
 
 def main():
-    #Write your code here
+    var = input("Enter line: ")
+    if "bear" in var:
+        print("There is a bear in there")
+    else:
+        print("No bears here.")
     
         
     
