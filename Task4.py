@@ -6,12 +6,12 @@
 attpassword = input("What is the password, Ali?:")
 
 def main():
-    # Write your code for input here
+# Write your code for input here
     if attpassword == "Open Sesame!":
       print("Correct, the door has opened")
     else: 
       print("Wrong, try again.")
-    # End of your code for input here
+# End of your code for input here
 
 
 
